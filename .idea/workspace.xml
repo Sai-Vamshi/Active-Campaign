@@ -5,39 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="447a3018-4efd-4956-8c34-56160e867fd8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AWS-EC2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AWS-S3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yellowant-EC2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yellowant-S3/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yellowant-EC2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yellowant-S3/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yellowant-EC2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yellowant-S3/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yellowant-EC2/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yellowant-S3/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/yellowant-app-overview-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/yellowant-app-overview-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/yellowant-create-new-app.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/yellowant-create-new-arg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/yellowant-create-new-function.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/migrations/0002_usertodo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/sdk.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/static" beforeDir="false" afterPath="$PROJECT_DIR$/web/static" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yellowant_api/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/yellowant_api/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yellowant_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/yellowant_api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yellowant_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/yellowant_api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yellowant_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/yellowant_api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yellowant_command_center/command_center.py" beforeDir="false" afterPath="$PROJECT_DIR$/yellowant_command_center/command_center.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +19,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yellowant_api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+            <state relative-caret-position="307">
+              <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -315,7 +283,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="34" width="1296" height="1044" extended-state="0" />
+    <frame x="55" y="34" width="1296" height="1044" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36514196" />
@@ -610,8 +578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yellowant_api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        <state relative-caret-position="307">
+          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
