@@ -88,7 +88,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Lambda.urls'
+ROOT_URLCONF = 'Active_Campaign.urls'
 
 TEMPLATES = [
     {
@@ -106,7 +106,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Lambda.wsgi.application'
+WSGI_APPLICATION = 'Active_Campaign.wsgi.application'
 
 
 # Database
@@ -115,7 +115,7 @@ WSGI_APPLICATION = 'Lambda.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'lambda',
+        'NAME': 'active_campaign',
         'USER': "mysqltest",
         'PASSWORD': "pass",
         'HOST' : "localhost",
