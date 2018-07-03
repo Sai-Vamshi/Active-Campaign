@@ -1,0 +1,313 @@
+api_url: http://92bf46dd.ngrok.io/yellowant-api/
+creator_email: saivamshipavan@gmail.com
+documentation_url: https://yellowant.com/documentation/
+functions:
+  account-view:
+    function_type: 1
+    input_args: {}
+    invoke_name: account-view
+    is_active: 1
+    max_retries: 0
+    name: Account-View
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: To get the details of the account.
+    user_rate_limit: 0.0
+  automation-list:
+    function_type: 1
+    input_args: {}
+    invoke_name: automation-list
+    is_active: 1
+    max_retries: 0
+    name: Automation List
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: This function lists all the automation present.
+    user_rate_limit: 0.0
+  bounce-totals:
+    function_type: 1
+    input_args:
+      Id:
+        arg_type: 14
+        description: the id of
+        example: '2'
+        name: Id
+        required: 1
+    invoke_name: bounce-totals
+    is_active: 1
+    max_retries: 0
+    name: Bounce List
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: For bouncing
+    user_rate_limit: 0.0
+  campaign-delete:
+    function_type: 1
+    input_args:
+      Id:
+        arg_type: 14
+        description: The Id of the Campaign
+        example: '3'
+        name: Id
+        required: 1
+    invoke_name: campaign-delete
+    is_active: 1
+    max_retries: 0
+    name: Campaign delete
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: For deleting a Campaign in Active Campaign
+    user_rate_limit: 0.0
+  campaign-open:
+    function_type: 2
+    input_args: {}
+    invoke_name: campaign-open
+    is_active: 0
+    max_retries: 0
+    name: Campaign open
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Webhhok function to notify when campaign is opened
+    user_rate_limit: 0.0
+  campaign-share:
+    function_type: 2
+    input_args: {}
+    invoke_name: campaign-share
+    is_active: 0
+    max_retries: 0
+    name: campaign share
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Webhook for campaign share
+    user_rate_limit: 0.0
+  contact-added:
+    function_type: 2
+    input_args: {}
+    invoke_name: contact-added
+    is_active: 0
+    max_retries: 0
+    name: contact added
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Notifies when contact is created
+    user_rate_limit: 0.0
+  contact-unsubscribe:
+    function_type: 2
+    input_args: {}
+    invoke_name: contact-unsubscribe
+    is_active: 0
+    max_retries: 0
+    name: Contact Unsubscribe
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Webhook for contact unsubscription
+    user_rate_limit: 0.0
+  deal-add:
+    function_type: 2
+    input_args: {}
+    invoke_name: deal-add
+    is_active: 0
+    max_retries: 0
+    name: Deal Add
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: To send a notification when webhook is added`
+    user_rate_limit: 0.0
+  deal-delete:
+    function_type: 1
+    input_args:
+      Id:
+        arg_type: 14
+        description: The ID of the deal to be deleted
+        example: '1'
+        name: Id
+        required: 1
+    invoke_name: deal-delete
+    is_active: 1
+    max_retries: 0
+    name: Deal delete
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Deletes the deal in Active Campaign
+    user_rate_limit: 0.0
+  deal-get:
+    function_type: 1
+    input_args:
+      Id:
+        arg_type: 14
+        description: The ID of the deal
+        example: '2'
+        name: Id
+        required: 1
+    invoke_name: deal-get
+    is_active: 1
+    max_retries: 0
+    name: Get Deal
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Gets the deal.
+    user_rate_limit: 0.0
+  deal-list:
+    function_type: 1
+    input_args: {}
+    invoke_name: deal-list
+    is_active: 1
+    max_retries: 0
+    name: Deal list
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Lists all the deals.
+    user_rate_limit: 0.0
+  deal-pipeline-add:
+    function_type: 2
+    input_args: {}
+    invoke_name: deal-pipeline-add
+    is_active: 0
+    max_retries: 0
+    name: Deal pipeline add
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Sends Notifications when deal pipeline is added
+    user_rate_limit: 0.0
+  deal-stage-add:
+    function_type: 2
+    input_args: {}
+    invoke_name: deal-stage-add
+    is_active: 0
+    max_retries: 0
+    name: Deal Stage Add
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Sends notifications when Deal stage added
+    user_rate_limit: 0.0
+  deal-task-add:
+    function_type: 2
+    input_args: {}
+    invoke_name: deal-task-add
+    is_active: 0
+    max_retries: 0
+    name: Deal task add
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Sends notifications when Deal task added
+    user_rate_limit: 0.0
+  deal-task-complete:
+    function_type: 2
+    input_args: {}
+    invoke_name: deal-task-complete
+    is_active: 0
+    max_retries: 0
+    name: Deal task Complete
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Sends notifications when Deal task completed
+    user_rate_limit: 0.0
+  deal-update:
+    function_type: 2
+    input_args: {}
+    invoke_name: deal-update
+    is_active: 0
+    max_retries: 0
+    name: Deal Update
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Sends Notification when a deal is updated
+    user_rate_limit: 0.0
+  list-added:
+    function_type: 2
+    input_args: {}
+    invoke_name: list-added
+    is_active: 0
+    max_retries: 0
+    name: List Added
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Sends notifications when list is added
+    user_rate_limit: 0.0
+  list-delete:
+    function_type: 1
+    input_args:
+      Id:
+        arg_type: 14
+        description: The ID of the list to be deleted.
+        example: '2'
+        name: Id
+        required: 1
+    invoke_name: list-delete
+    is_active: 1
+    max_retries: 0
+    name: List Delete
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: To delete the list
+    user_rate_limit: 0.0
+  list-view:
+    function_type: 1
+    input_args:
+      Id:
+        arg_type: 14
+        description: The ID of the list
+        example: '3'
+        name: Id
+        required: 1
+    invoke_name: list-view
+    is_active: 1
+    max_retries: 0
+    name: List view
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: To view the existing list
+    user_rate_limit: 0.0
+  totals:
+    function_type: 1
+    input_args:
+      Campaign-ID:
+        arg_type: 14
+        description: The ID of the Campaign
+        example: '16'
+        name: Campaign-ID
+        required: 1
+    invoke_name: totals
+    is_active: 1
+    max_retries: 0
+    name: Campaign Report
+    output_keys: {}
+    privacy_mode: 0
+    rate_limited: 0
+    short_description: Gets the data about the campaign
+    user_rate_limit: 0.0
+icon_url: https://cdn-images
+install_page_url: https://yellowant.com/install/
+invoke_name: active-campaign
+is_active: 1
+is_production_or_sandbox: 0
+long_description: ''
+name: Active Campaign
+privacy_policy_url: https://yellowant.com/privacy/
+rate_limit: 0.0
+rate_limited: 0
+redirect_uris: http://92bf46dd.ngrok.io/yellowant-oauth-redirect/
+short_description: The marketing automation platform.
+user_rate_limit: 0.0
+visibility_scope: 0
+website: https://yellowant.com/install/
